@@ -1,16 +1,82 @@
-# React + Vite
+📊 Frontend Controle de Dosagem
+Sistema básico para realizar o controle de dosagem de aditivo com base nas informações de pesagem de cada betoneira. Permite gerar um histórico diário por empresa de todas as betoneiras que saíram da usina.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
+React 19
 
-Currently, two official plugins are available:
+React Router DOM 7
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TailwindCSS 4
 
-## React Compiler
+Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Day.js
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**⚙️ Instalação e Execução
+Clone o repositório:
+
+bash
+git clone https://github.com/seuusuario/frontend-controle-dosagem.git
+Instale as dependências:
+
+bash
+npm install
+Configure o backend e banco de dados:
+
+Backend rodando via VSCode
+
+Banco de dados Postgres via Docker
+
+Execute o frontend:
+
+bash
+npm run dev**
+
+📖 Uso
+Login no sistema para acessar o dashboard.
+
+Controle de betoneiras por obra.
+
+Registro de produtos e dosagens.
+
+Histórico diário de saídas de veículos com suas respectivas dosagens.
+
+🛠️ Estrutura do Projeto
+Código
+src/
+ ├── componentes/
+ │    └── PrivateRoute
+ ├── pages/
+ │    ├── Dashboard
+ │    ├── Login
+ │    ├── PublicView
+ │    ├── Search
+ │    └── UserRegister
+ ├── public/
+ ├── app.jsx
+ ├── api.js
+ ├── index.css
+ └── main.jsx
+✨ Funcionalidades
+Controle de betoneira por obra.
+
+Controle de produtos e dosagens.
+
+Registro de datas e saídas de veículos.
+
+📌 Extras
+Badges de versão e status do build (exemplo: )
+
+Screenshots ou GIFs mostrando o dashboard em ação.
+
+Roadmap: adicionar relatórios exportáveis e gráficos de consumo futuro.
+
+📜 Licença
+Este projeto não possui licença definida.
+
+📬 Contato
+Email: fabio.ti.am@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/f%C3%A1bio-garcia-46682739/
