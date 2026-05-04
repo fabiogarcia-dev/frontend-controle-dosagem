@@ -14,7 +14,7 @@ Day.js
 
 Vite
 
-**⚙️ Instalação e Execução
+⚙️ Instalação e Execução
 Clone o repositório:
 
 bash
@@ -32,7 +32,7 @@ Banco de dados Postgres via Docker
 Execute o frontend:
 
 bash
-npm run dev**
+npm run dev
 
 📖 Uso
 Login no sistema para acessar o dashboard.
