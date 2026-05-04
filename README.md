@@ -18,7 +18,7 @@ Vite
 Clone o repositório:
 
 bash
-git clone https://github.com/seuusuario/frontend-controle-dosagem.git
+git clone https://github.com/fabiogarcia-dev/frontend-controle-dosagem.git
 Instale as dependências:
 
 bash
